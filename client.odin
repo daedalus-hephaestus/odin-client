@@ -27,5 +27,7 @@ main :: proc() {
 		}
 	}
 
-	tcpaes.get("https://auth.daedalus-data.com")
+	key, aad := tcpaes.req_key("https://auth.daedalus-data.com/key")
+
+	fmt.printfln("key: %v", key)
 }
