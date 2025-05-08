@@ -1,0 +1,6 @@
+[submodule "odin-http"]
+	path = odin-http
+	url = ssh://daedalus@daedalus-data.com:1066/mnt/raid/git/odin_projects/odin-http
+[submodule "tcpaes"]
+	path = tcpaes
+	url = ssh://daedalus@daedalus-data.com:1066/mnt/raid/git/odin_projects/tcpaes
