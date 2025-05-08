@@ -1,7 +1,9 @@
-package client
+package gameclient
 
 import "core:fmt"
 import "core:mem"
+
+import tcpaes "tcpaes"
 
 main :: proc() {
 
@@ -25,6 +27,5 @@ main :: proc() {
 		}
 	}
 
-	// write code below this line
-	fmt.println("client created")
+	tcpaes.get("https://auth.daedalus-data.com")
 }
