@@ -1,3 +1,4 @@
+#+feature dynamic-literals
 package gameclient
 
 import "core:fmt"
@@ -26,6 +27,13 @@ main :: proc() {
 			mem.tracking_allocator_destroy(&track)
 		}
 	}
+
+	m := map[string]string{
+		"usr" = "test",
+		"password" = "test"
+	}
+	fmt.println(m)
+
 
 	data, ok := tcpaes.req_key("test", "test", "https://auth.daedalus-data.com/auth")
 	fmt.println(data)
