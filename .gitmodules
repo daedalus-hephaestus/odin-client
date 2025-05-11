@@ -4,3 +4,6 @@
 [submodule "tcpaes"]
 	path = tcpaes
 	url = ssh://daedalus@daedalus-data.com:1066/mnt/raid/git/odin_projects/tcpaes
+[submodule "odin-mysql"]
+	path = odin-mysql
+	url = ssh://daedalus@daedalus-data.com:1066/mnt/raid/git/odin_projects/odin-mysql
