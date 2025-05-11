@@ -28,7 +28,7 @@ main :: proc() {
 		}
 	}
 
-	data, ok := tcpaes.req_key("thomas1", "test", "https://auth.daedalus-data.com/auth")
+	data, ok := tcpaes.req_key("gresham", "TestPassword1", "https://auth.daedalus-data.com/auth")
 	fmt.println(data)
 
 }
